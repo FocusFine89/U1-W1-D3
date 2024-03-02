@@ -1,0 +1,128 @@
+/* GENERALE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.torquoise {
+  color: #004d4c;
+}
+
+pinegreen {
+  color: #077272;
+}
+
+/* FINE GENERALE */
+
+/* HEADER */
+
+header {
+  text-align: center;
+}
+
+header img {
+  margin-top: 2%;
+  width: 10%;
+  height: 10%;
+}
+
+header div {
+  background-color: rgba(255, 211, 102, 0.2);
+  margin-top: 1.5em;
+  padding: 1.5em;
+  border-top: 2px solid #ffd366;
+  margin-bottom: 5%;
+}
+
+header span {
+  font-weight: 700;
+}
+/* FINE HEADER */
+
+/* MAIN */
+main {
+  text-align: left;
+  width: 35%;
+  margin: auto;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+main .descrizione {
+  margin-bottom: 2%;
+}
+
+main img {
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px 0px gray;
+  -moz-box-shadow: 5px 5px 10px 0px gray;
+  -o-box-shadow: 5px 5px 10px 0px gray;
+  box-shadow: 5px 5px 10px 0px gray;
+}
+
+.descrizione-img {
+  text-align: center;
+  color: gray;
+  margin-top: 1.2em;
+  margin-bottom: 3%;
+}
+
+.feat {
+  padding-left: 2%;
+  border-left: 2px solid #ffd366;
+}
+
+.feat :first-child {
+  color: orange;
+}
+
+.feat :last-child {
+  color: #077272;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #bff2f1;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ingredienti p {
+  margin-top: 5%;
+}
+
+.titolo {
+  margin-bottom: 3%;
+  padding-left: 5%;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 6%;
+}
+
+li {
+  margin-bottom: 2%;
+}
+
+.focaccia {
+  padding-left: 7%;
+}
+
+.source {
+  font-size: 0.8em;
+  margin-top: 3%;
+}
+
+/* FINE MAIN */
+
+/* FOOTER */
+/* FINE FOOTER */
